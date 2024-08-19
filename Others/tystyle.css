@@ -1,0 +1,135 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+.zain-extralight {
+    font-family: "Zain", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .zain-light {
+    font-family: "Zain", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .zain-regular {
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .zain-bold {
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .zain-extrabold {
+    font-family: "Zain", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .zain-black {
+    font-family: "Zain", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  /* _____________________________________________________________ */
+
+/* Responsive Breakpoints */
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    body {
+        
+        line-height: 1;
+    }
+    p{
+        margin: 0;
+        font-size: 2vw;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media(min-width: 600px) {
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media (min-width: 768px) {
+
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media (min-width: 992px) {
+
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+
+  }
+
+
+
+/* _______________________________________________________________ */
+body{
+    background-color: #151515;
+    color: #4e4e4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
+    line-height: auto;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-size: 4.5rem; /* 72px */
+    line-height: 1;
+}
+
+.button{
+    border: none;
+    text-align: center;
+    margin: 5px;
+    color: #A1A1AA;
+    border-radius: 0.5rem;
+    transition: all 0.05s;
+    padding: 0.5rem;
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+}
+
+.button1{
+    color: #FAFAFA;
+    background-color: #10B981;
+}
+:hover.button1{
+    background-color: #059669;
+
+}
+:active.button1{
+    background-color: #047857;
+}
+
+.button2{
+    color: #374151;
+    background-color: #CBD5E1;
+}
+:hover.button2{
+    background-color: #9CA3AF;
+    color: #fff;
+}
+:active.button2{
+    background-color: #6B7280;
+    color: #fff;
+}
