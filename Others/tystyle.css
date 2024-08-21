@@ -50,11 +50,10 @@ body{
     line-height: auto;
     height: 100vh;
     width: 100%;
-    margin: 0;
+    padding: 0.5rem
 }
 
 p{
-    margin: 0;
     font-size: 4.5rem; /* 72px */
     line-height: 1;
 }
@@ -106,31 +105,67 @@ p{
   body {
       
       line-height: 1;
+      margin: 5%;
   }
   p{
       margin: 0;
-      font-size: 2vw;
+      font-size: 2.5rem;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media(min-width: 600px) {
-
+@media(min-width: 600px) and (max-width: 768px) {
+  body {
+      
+    line-height: 1;
+    margin: 5%;
+}
+  p{
+    margin: 0;
+    font-size: 3.5rem;
+}
+  .button{
+  border-radius: 0.78rem;
+  font-size: 1.75rem; /* 18px */
+  line-height: 2.72rem; /* 28px */
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media (min-width: 768px) {
-
+@media (min-width: 768px) and (max-width: 992px) {
+  body {
+      
+    line-height: 1;
+    margin: 5%;
+}
+  p{
+    margin: 0;
+    font-size: 3.5rem;
+}
+  .button{
+  border-radius: 0.78rem;
+  font-size: 1.75rem; /* 18px */
+  line-height: 2.72rem; /* 28px */
+}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 992px) {
-
+@media (min-width: 992px) and (max-width: 990px) {
+  body {
+      
+    line-height: 1;
+    margin: 200px;
+}
+  p{
+    margin: 200px;
+    font-size: 4rem;
+}
+  .button{
+  border-radius: 1.05rem;
+  font-size: 2.35rem; /* 18px */
+  line-height: 3.5rem; /* 28px */
+}
 } 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-}
 
 
