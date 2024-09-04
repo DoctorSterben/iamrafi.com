@@ -13,7 +13,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("#") top right no-repeat;
+  background: #040404 url("../images/bgtc.jpg") top right no-repeat;
   background-size: cover;
   right: 0;
   left: 0;
